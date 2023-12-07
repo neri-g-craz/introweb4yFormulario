@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Avanzado</title>
+</head>
+<body>
+    <h1>Ejemplo de tabla</h1>
+    <!-- Las tablas son un conjunto estructurado de datos compuesto por filas y columnas -->
+    <caption>Tabla nombres</caption> 
+    <!-- Caption representa un titulo descriptivo de una tabla -->
+    <table border="1">
+        <tr><!--Representa una fila-->
+            <th>Encabezado</th> <!--Representa las celdas de encabezado-->
+            <th>Encabezado 2</th>
+        </tr>
+        <tr>
+            <td>Nombre 1</td> <!--Representa la primera celda de la primer fila-->
+            <td>Apellido 1</td> <!--Representa la segunda celda de la primer fila-->
+        </tr>
+        <tr>
+            <td>Rene</td>
+            <td>Gomez</td>
+        </tr>
+        <tr>
+            <td>Daniel</td>
+            <td>De la Cruz</td>
+        </tr>
+    </table><br><hr>
+    <h2>Nombres del equipo 3</h2>
+    <caption>DevVortex</caption>
+    <table border="5">
+        <tr>
+            <th>NOMBRE</th>
+            <th>APELLIDO PATERNO</th>
+            <th>APELLIDO MATERNO</th>
+            <th>ERROR</th>
+        </tr>
+        <tr>
+            <td>Baruch</td>
+            <td>Moreno</td>
+            <td>Romero</td>
+            <td>Pronunciar Baruc, apodos temrinando en -uch</td>
+        </tr>
+        <tr>
+            <td>David Alberto</td>
+            <td>Romero</td>
+            <td>Licea</td>
+            <td>Eliseo en lugar de Licea</td>
+        </tr>
+        <tr>
+            <td>Ana Karen</td>
+            <td>Morales</td>
+            <td>Ramos</td>
+            <td>Entienden Karina y no Karen</td>
+        </tr>
+        <tr>
+            <td>Montserrat</td>
+            <td>Martinez</td>
+            <td>Galván</td>
+            <td>Omiten la t en Montserrat</td>
+        </tr>
+        <tr>
+            <td>Jesus Emiliano</td>
+            <td>Madrigal</td>
+            <td>Gonzalez</td>
+            <td>Emilio o Gonsales</td>
+        </tr>
+        <tr>
+            <td>Oswaldo Ivan</td>
+            <td>Zarza</td>
+            <td>Morales</td>
+            <td>Zarzamora</td>
+        </tr>
+        <tr>
+            <td>Eunice</td>
+            <td>Ceja</td>
+            <td>Santos</td>
+            <td>Cejas de unir Ceja+Santos</td>
+        </tr>
+    
+        <tr>
+            <td>Nadia Abigail</td>
+            <td>Martinez</td>
+            <td>Leon</td>
+            <td>Nadie o nada</td>
+        </tr>
+    
+        <tr>
+            <td>Rene</td>
+            <td>Gomez</td>
+            <td>Orozco</td>
+            <td>Gomes</td>
+        </tr>
+    
+
+    </table>
+    <br>
+    <table border="1">
+        <thead><!--Esta etiqueta agrupa los elementos de la cabecera en la tabla-->
+            <tr>
+                <th colspan="3">Encabezado de tablas</th><!--Permite expandir las celdas de datos o de encabezadosn al número de columnas que deseemos que ocupe-->
+            </tr>
+
+        </thead>
+        <tbody><!--Esta etiqueta agrupa los elementos de contenido en la tabla-->
+            <tr>
+                <td>El cuerpo de la tabla</td>
+                <td>con dos columnas</td>
+                <td>columna</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">Piesitos</th>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 id="Anclajes">Anclajes: Interno y externo</h1>
+    <a href="#Sección 1">¿Adoptar una mascota? Tome en cuenta sus gastos</a>
+    <br>
+    <a href="#Sección 2">¿Cuánto cuesta mantener una mascota?</a>
+    <br>
+    <h2 id="Sección 1">¿Adoptar una mascota? Tome en cuenta sus gastos</h2>
+    <h4>Antes de llevar a un peludito a casa, debe tener en mente que es una responsabilidad monetaria a largo plazo y que ellos se merecen que les demos una vida digna.</h4>
+    <br>
+    <div>
+    <img src="https://www.eleconomista.com.mx/__export/1650592718322/sites/eleconomista/img/2022/04/21/grafico_eleconomista_mexico_finanzas_personales_adopcion_de_mascotas_consejos.png_1947833983.png" alt="referencia" width="400px">
+    </div>
+        <p>Según cifras de MSD Salud Animal México, aproximadamente 57% de las familias tiene una mascota, de las cuales, 15% tiene al menos un gato, mientras que 9.6 millones de perros forman parte de una familia.
+        Durante la pandemia de Covid-19 hubo un incremento de 41% en la búsqueda de adopción de mascotas, debido a que durante el confinamiento muchas personas sufrieron altos niveles de estrés y ansiedad.
+        Varios estudios han comprobado que el tener una mascota en casa tiene beneficios tanto físicos como emocionales, pero ellos también tienen necesidades, por lo que debemos ver por su alimentación, salud, diversión, accesorios, aseo, etc., lo cual podría repercutir en nuestro bolsillo.
+        </p>
+    <h3 id="Sección 2">¿Cuánto cuesta mantener una mascota?</h3>
+        <p>El gasto de una mascota dependerá de muchos factores, principalmente la talla del animalito, ya que un perro de talla pequeña no come ni tiene las mismas necesidades que uno de talla grande, por ello antes de adoptar debemos determinar a qué tipo de mascota podemos darle una vida digna.
+        Un sondeo realizado por la plataforma de servicios financieros Coru.com y la empresa de estudios de mercado Brad Engagment, arrojó que 45.4% de las personas gasta mensualmente menos de 1,000 pesos en sus mascotas, 41.3% gasta de 1,000 a 2,000, 9% gasta de 2,000 a 3,000 y 3% gasta más de 3,000 pesos mensuales.
+        
+        El gasto inicial ronda los 2,000 pesos, entre los accesorios y la comida que debemos comprar, como una cama, un collar, una correa, un plato, juguetes, etc.
+        
+        Si desea adoptar un gato, ellos necesitan artículos como un arenero, una pala, su cama, rascador, cepillo y corta uñas, entre otras cosas, que su costo total ronda los 3,700 pesos.
+        </p>
+    <h3>Dueño responsable</h3>
+        <p>Por otra parte, los animalitos necesitan distracciones, es por ello que habrá que comprarle algunos juguetes cuyo costo fluctúa entre 100 y 500 pesos.
+
+            Estos son solo algunos gastos que representa el tener una mascota en casa, sin contar los imprevistos, como cuando salimos de vacaciones y debemos dejar a nuestro perro o gato con algún cuidador que cobra desde 200 hasta 800 pesos por día, o cuando se enferman y requieren de procedimientos médico.
+        </p>
+    <a href="#Anclajes">Volver al inicio</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>Anclaje externo</h2>
+    <br>
+    <h6>Referenciar un articulo dentro de otro</h6>
+    <a href="http://www.elgatovago.org/index_1.html" target="_blank">Refugio de gatos</a> <!--Estos anclajes enlazan a una página web diferente. El valor del a atributp href es la URL completa del sitio web de destino y el identificador de la sección.-->
+    <br>
+    <h5>Anclaje número telefónico</h5>
+    <a href="tel:+527445529404" target="_blank">Llamanos</a>
+    <br>
+    <h5>Anclaje de Whatsapp</h5>
+    <a href="https://wa.me/1234567890" target="_blank">Envíanos un mensaje</a>
+    <!-- Estos enlaces abren Whastapp en un navegador o en la aplicación móvil, para que los usuarios puedan enviar mensajes al número predefinido -->
+    <br>
+    <h5>Anclaje de mapa</h5>
+    <a href="https://maps.app.goo.gl/nhUjWSXPdVQnJdy66" target="_blank">Ver ubicación</a>
+    <!-- Estos enlaces nos permiten enlazar ubicaciones específicas en servicios de mapas, tal sea como Google, para que los usuarios puedan tener la referencia. -->
+    <br>
+    <h5>Anclaje de redes sociales</h5>
+    <a href="https://www.facebook.com/ElGatoVagoMX/?locale=es_LA" target="_blank">Facebook de "El gato vago</a>
+    <br>
+    <br>
+    <br>
+    <h1>Formularios y tipos de entrada</h1>
+    <form action="prcoesar_formulario" method="post"></form>
+    <!-- La etiqueta form, se utiliza para crear un formulario en HTML que permite a los usuarios ingresar informacion
+    action: Especifica a la URL a la que se enviaran los datos del formulario cuando este se envía
+    method: Define el método HTTP que se utilizara para enviar los datos (puede ser "get" o "post") -->
+    <br>
+    <h4>Etiqueta input</h4><!--La etiqueta input se utiliza para crear campos de entrada en un formulario-->
+    <input type="text" name="usuario" placeholder="Nombre">
+    <input type="password" name="contraseña" placeholder="Contraseña"><!-- type: Define el tipo de entrada (texto, contraseña, correo electrónico, etc.).
+        name: Es el nombre del campo, utilizado para identificar el dato cuando se envía el formulario.
+        placeholder: Proporciona un texto de ejemplo dentro del campo de entrada. -->
+    <br>
+    <br>
+    <h4>Etiqueta Label</h4>
+    <!-- La etiqueta label se utiliza para etiquetar un elemento de entrada en un fomrulario, lo que mejora la accesibilidad y la experiencia del usuario -->
+    <label for="usuario">Usuario : <!-- for: es un atributo se asocia con el "id" de un elemento de entrada para indicar a que campo se refiere. -->
+    <input type="text" id="usuario" name="usuario">
+    </label>
+    <br>
+    <h4>Etiqueta button</h4>
+    <!-- Esta etiqueta se utiliza para crear botones en un formulario que los usuarios pueden usar para hacer clic y enviar información -->
+    <button type="submit">Enviar</button>
+    <button type="reset">Resetear</button>
+    <!-- type: Define el tipo de botón. -->
+    <br>
+    <h4>Área de texto</h4>
+    <textarea name="comentarios" id="comentarios" cols="50" rows="10" placeholder="Ponga sus comentarios"></textarea>
+    <br>
+    <h4>Número (number)</h4>
+    <!-- Este tipo de entrada crea un campo de entrada para números -->
+    <input type="number" name="number" placeholder="Elija un número">
+    <br>
+    <h4>Correo electrónico (email)</h4>
+    <input type="email" name="correo" placeholder="Ingrese su correo electrónico">
+    <br>
+    <h4>No telefónico (tel)</h4>
+    <input type="tel" name="teléfono" placeholder="Ingrese su número">
+    <br>
+    <h4>Fecha (date)</h4>
+    <input type="date" name="fecha" 
+    <br>
+    <h4>Hora (time)</h4>
+    <input type="time" name="hora" 
+    <br>
+    <h4>Archivo (file)</h4>
+    <input type="file" name="archivo" 
+    
+
+
+
+    
+</body>
+</html>
